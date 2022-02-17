@@ -4,13 +4,13 @@
 {{- if not ($.Page.Scratch.Get "noticecount") }}
 <style>
     .notice {
-        border-radius: 20px 20px 10px 10px;
+        border-radius: 5px 5px 5px 5px;
         background-color: hsl(0, 0%, 80%);
         color: #3f3f3f;
-        padding: 12px 20px;
+        padding: 0px 0px;
     }
     .notice-title {
-        border-radius: 10px 10px 0px 0px;
+        border-radius: 5px 5px 0px 0px;
         font-weight: 700;
         background-color: hsl(0, 0%, 50%);
         color: white;
@@ -19,7 +19,8 @@
         padding: 3px 0 3px 20px;
     }
     .notice-body {
-        margin-top: 12px;
+        margin: 0px 16px;
+        padding-bottom: 16px;
     }
     .notice-body p {
         margin-top: 12px;
